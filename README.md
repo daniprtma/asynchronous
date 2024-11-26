@@ -1,16 +1,27 @@
-# pert11
+# Praktikum 1
 
-A new Flutter project.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+# Praktikum 2
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Praktikum 3
+
+
+# Praktikum 4
+
+
+# Praktikum 5
+
+
+# Praktikum 6
+
+
+# Praktikum 7
+
+
+# Praktikum 8
+
+
+# Praktikum 9
