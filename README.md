@@ -28,15 +28,23 @@ Baik dalam kasus sukses maupun error, setState dipanggil untuk memperbarui UI ag
 
 # Praktikum 2
 ![Screenshot 2024-11-25 151515](https://github.com/user-attachments/assets/8dfda051-2e63-41bf-91cc-383b51eb190f)
-
+### Soal 4
+#### Jelaskan maksud kode langkah 1 dan 2 tersebut!
+Langkah 1 terdiri dari tiga fungsi asynchronous (returnOneAsync, returnTwoAsync, dan returnThreeAsync). Sedangkan, Langkah 2 adalah fungsi asynchronous bernama count yang menggunakan fungsi-fungsi dari Langkah 1.  
 
 # Praktikum 3
 ![Screenshot 2024-11-25 153046](https://github.com/user-attachments/assets/68ee8adc-43b2-4cf0-9cf5-62b4a6d72501)
 ![Screenshot 2024-11-25 153105](https://github.com/user-attachments/assets/1caa273e-c5ea-456a-bdf3-11515823b7fe)
-
-
+### Soal 5
+#### Jelaskan maksud kode langkah 2 tersebut!
+Kode tersebut menggunakan konsep Completer di Dart untuk mengontrol penyelesaian sebuah Future.
+### Soal 6
+#### Jelaskan maksud perbedaan kode langkah 2 dengan langkah 5-6 tersebut!
+Langkah 5-6 lebih lengkap karena menangani kesalahan, sedangkan Langkah 2 hanya untuk kasus sukses tanpa error.
 # Praktikum 4
 ![image](https://github.com/user-attachments/assets/ec4820e9-62de-49a4-bb77-ec36115c5a6b)
+### Soal 7
+#### Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit 
 
 
 # Praktikum 5
