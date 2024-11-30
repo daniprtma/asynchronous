@@ -26,6 +26,9 @@
 
 
 # Praktikum 7
+![image](https://github.com/user-attachments/assets/a9e3225c-e5e3-4554-acdf-b4498408e256)
+## Perbedaan
+![image](https://github.com/user-attachments/assets/9550c432-c064-4b46-9eeb-5b659c26bad6)
 
 
 # Praktikum 8
