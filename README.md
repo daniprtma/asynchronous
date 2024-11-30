@@ -11,6 +11,7 @@
 
 
 # Praktikum 4
+![image](https://github.com/user-attachments/assets/ec4820e9-62de-49a4-bb77-ec36115c5a6b)
 
 
 # Praktikum 5
