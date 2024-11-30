@@ -32,6 +32,9 @@
 
 
 # Praktikum 8
+![image](https://github.com/user-attachments/assets/b3b04769-43d7-4aad-872e-82362d7c5549)
+![image](https://github.com/user-attachments/assets/3f9654aa-227c-4070-8dd8-696d830d2e6c)
+
 
 
 # Praktikum 9
