@@ -3,6 +3,11 @@ import 'package:async/async.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart';
 import 'package:http/http.dart' as http;
+import 'package:pert11/geolocation.dart';
+import 'package:pert11/navigation_first.dart';
+import 'package:pert11/navigation_second.dart';
+import 'package:pert11/navigation_dialog.dart';
+
 
 void main() {
   runApp(const MyApp());
@@ -19,7 +24,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: const FuturePage(),
+      home: const NavigationDialogScreen(),
     );
   }
 }
@@ -77,14 +82,32 @@ class _FuturePageState extends State<FuturePage> {
 
   Future calculate() async {
     try {
-    await Future.delayed(const Duration(seconds: 5));
-    completer.complete(42);
-  } catch (_) {
-    completer.completeError({});
+      await Future.delayed(const Duration(seconds: 5));
+      completer.complete(42);
+    } catch (_) {
+      completer.completeError({});
+    }
   }
-}
 
-void returnFG() {
+  Future returnError() async {
+    await Future.delayed(const Duration(seconds: 2));
+    throw Exception('Something terrible happened!');
+  }
+
+  Future handleError() async {
+    try {
+      await returnError();
+    } catch (error) {
+      setState(() {
+        result = error.toString();
+      });
+    } 
+    finally {
+      print('Complete');
+    }
+  }
+
+  void returnFG() {
     FutureGroup<int> futureGroup = FutureGroup<int>();
     futureGroup.add(returnOneAsync());
     futureGroup.add(returnTwoAsync());
@@ -113,7 +136,15 @@ void returnFG() {
           ElevatedButton(
             child: const Text('GO!'),
             onPressed: () {
-              returnFG();
+              returnError().then((value) {
+                setState(() {
+                  result = 'Success';
+                });
+              }).catchError((onError) {
+                setState(() {
+                  result = onError.toString();
+                });
+              }).whenComplete(() => print('Complete'));
 
               // getNumber().then((value) {
               //   setState(() {
