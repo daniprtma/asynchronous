@@ -41,3 +41,4 @@
 ![image](https://github.com/user-attachments/assets/28b20b7e-fc9d-45b6-8771-6935c57abbb5)
 ### Soal 17
 Cobalah klik setiap button, apa yang terjadi ? Mengapa demikian ?
+Karena, ketika menjalankan kode dan mencoba mengklik tombol Red, Green, atau Blue, aplikasi akan mengalami infinite loop hingga akhirnya aplikasi mungkin berhenti atau membeku. Hal ini disebabkan oleh panggilan rekursif tanpa batas dari fungsi _showColorDialog.
