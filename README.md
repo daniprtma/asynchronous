@@ -5,6 +5,7 @@
 Sebelumnya mohon maaf dikarenakan saya Lupa pada praktikum ini disuruh menambahkan title app.
 ### Soal 2
 #### Carilah judul buku favorit Anda di Google Books, lalu ganti ID buku pada variabel path di kode tersebut. Caranya ambil di URL browser Anda seperti gambar berikut ini.
+![image](https://github.com/user-attachments/assets/73f168db-d49f-4d93-a714-f053e6987159)
 
 ### Soal 3
 #### Jelaskan maksud kode langkah 5 tersebut terkait substring dan catchError!
