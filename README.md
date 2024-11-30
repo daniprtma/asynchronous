@@ -20,6 +20,9 @@
 
 # Praktikum 6
 ![image](https://github.com/user-attachments/assets/774e5cc9-dc1c-4c48-ae55-a35495aaa6d4)
+## Setelah ditambahkan delay pada method getPosition() dengan kode await Future.delayed(const Duration(seconds: 3));
+<img width="379" alt="image" src="https://github.com/user-attachments/assets/6bc13578-6d90-4e1d-9f2b-69fcbe8249b6">
+
 
 
 # Praktikum 7
