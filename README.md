@@ -15,15 +15,27 @@
 
 
 # Praktikum 5
+![image](https://github.com/user-attachments/assets/aa17f181-29cf-49a3-a712-8038d148349a)
 
 
 # Praktikum 6
+![image](https://github.com/user-attachments/assets/774e5cc9-dc1c-4c48-ae55-a35495aaa6d4)
+## Setelah ditambahkan delay pada method getPosition() dengan kode await Future.delayed(const Duration(seconds: 3));
+<img width="379" alt="image" src="https://github.com/user-attachments/assets/6bc13578-6d90-4e1d-9f2b-69fcbe8249b6">
+
 
 
 # Praktikum 7
+![image](https://github.com/user-attachments/assets/a9e3225c-e5e3-4554-acdf-b4498408e256)
+## Perbedaan
+![image](https://github.com/user-attachments/assets/9550c432-c064-4b46-9eeb-5b659c26bad6)
 
 
 # Praktikum 8
+![image](https://github.com/user-attachments/assets/b3b04769-43d7-4aad-872e-82362d7c5549)
+![image](https://github.com/user-attachments/assets/3f9654aa-227c-4070-8dd8-696d830d2e6c)
+
 
 
 # Praktikum 9
+![image](https://github.com/user-attachments/assets/28b20b7e-fc9d-45b6-8771-6935c57abbb5)
