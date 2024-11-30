@@ -1,5 +1,29 @@
 # Praktikum 1
 ![Screenshot 2024-11-25 145450](https://github.com/user-attachments/assets/4d16d229-9f8e-42f3-9726-c8a4d1584286)
+### Soal 1
+#### Tambahkan nama panggilan Anda pada title app sebagai identitas hasil pekerjaan Anda.
+Sebelumnya mohon maaf dikarenakan saya Lupa pada praktikum ini disuruh menambahkan title app.
+### Soal 2
+#### Carilah judul buku favorit Anda di Google Books, lalu ganti ID buku pada variabel path di kode tersebut. Caranya ambil di URL browser Anda seperti gambar berikut ini.
+
+### Soal 3
+#### Jelaskan maksud kode langkah 5 tersebut terkait substring dan catchError!
+##### 1. getData()
+Fungsi getData() adalah sebuah asynchronous function yang mengirimkan HTTP GET request ke endpoint tertentu menggunakan http.get.
+Fungsi ini mengembalikan objek Response yang berisi status respons, header, dan konten (body) dari permintaan.
+##### 2. .then((value) { ... })
+Bagian ini adalah callback yang dijalankan jika Future dari getData() berhasil (tidak ada error).
+Objek value di sini adalah respons yang diterima dari server.
+##### 3. value.body.toString().substring(0, 450)
+value.body adalah konten (body) dari respons HTTP yang berupa teks.
+Fungsi toString() memastikan bahwa konten tersebut diubah menjadi string, meskipun umumnya body sudah berupa string.
+substring(0, 450) memotong string hingga hanya 450 karakter pertama. Ini dilakukan untuk membatasi panjang teks yang ditampilkan pada result, agar tidak melebihi kapasitas tampilan UI atau untuk tujuan tertentu seperti pratinjau.
+##### 4. catchError((_) { ... })
+catchError adalah callback yang dijalankan jika Future dari getData() mengalami error.
+Dalam kasus ini, _ adalah parameter anonim yang menerima error. Namun, error tersebut tidak digunakan lebih lanjut dalam logika ini.
+Jika terjadi error, teks "An error occurred" disimpan dalam variabel result.
+##### 5. setState(() {});
+Baik dalam kasus sukses maupun error, setState dipanggil untuk memperbarui UI agar mencerminkan nilai baru dari result.
 
 # Praktikum 2
 ![Screenshot 2024-11-25 151515](https://github.com/user-attachments/assets/8dfda051-2e63-41bf-91cc-383b51eb190f)
