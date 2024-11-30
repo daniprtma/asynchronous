@@ -40,34 +40,64 @@ Langkah 1 terdiri dari tiga fungsi asynchronous (returnOneAsync, returnTwoAsync,
 Kode tersebut menggunakan konsep Completer di Dart untuk mengontrol penyelesaian sebuah Future.
 ### Soal 6
 #### Jelaskan maksud perbedaan kode langkah 2 dengan langkah 5-6 tersebut!
-Langkah 5-6 lebih lengkap karena menangani kesalahan, sedangkan Langkah 2 hanya untuk kasus sukses tanpa error.
+Intinya, Langkah 5-6 lebih lengkap karena menangani kesalahan, sedangkan Langkah 2 hanya untuk kasus sukses tanpa error.
 # Praktikum 4
 ![image](https://github.com/user-attachments/assets/ec4820e9-62de-49a4-bb77-ec36115c5a6b)
 ### Soal 7
 #### Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit 
-
+### Soal 8
+#### Jelaskan maksud perbedaan kode langkah 1 dan 4!
+Future.wait lebih sederhana dan langsung mengumpulkan hasil dari beberapa Future dalam satu list.
+FutureGroup memberikan lebih banyak kontrol, memungkinkan penambahan Future secara dinamis, dan lebih fleksibel dalam menangani hasil.
 
 # Praktikum 5
 ![image](https://github.com/user-attachments/assets/aa17f181-29cf-49a3-a712-8038d148349a)
+### Soal 9
+#### Capture hasil praktikum Anda berupa GIF dan lampirkan di README. Lalu lakukan commit
 
+### Soal 10
+#### Panggil method handleError() tersebut di ElevatedButton, lalu run. Apa hasilnya? Jelaskan perbedaan kode langkah 1 dan 4!
+Langkah 1: Fungsi ini hanya melemparkan error (tanpa penanganan error).
+Langkah 4: Fungsi ini menangani error yang terjadi, menangkapnya dengan catch, dan dapat melakukan aksi tertentu seperti mengubah tampilan atau mencetak pesan, serta menjalankan kode di dalam finally setelah proses selesai.
 
 # Praktikum 6
 ![image](https://github.com/user-attachments/assets/774e5cc9-dc1c-4c48-ae55-a35495aaa6d4)
-## Setelah ditambahkan delay pada method getPosition() dengan kode await Future.delayed(const Duration(seconds: 3));
+### Soal 11
+#### Tambahkan nama panggilan Anda pada tiap properti title sebagai identitas pekerjaan Anda.
+
+### Soal 12
+#### Setelah ditambahkan delay pada method getPosition() dengan kode await Future.delayed(const Duration(seconds: 3));
+Ya, setelah menambahkan await Future.delayed(const Duration(seconds: 3)); dalam getPosition(), animasi loading (CircularProgressIndicator) akan tampil selama 3 detik sebelum koordinat GPS ditampilkan. Tanpa delay, prosesnya sangat cepat, sehingga animasi loading tidak sempat tampil.
+#### Apakah Anda mendapatkan koordinat GPS ketika run di browser? Mengapa demikian?
+Tidak. Di browser, API geolokasi mungkin tidak bekerja dengan baik karena browser biasanya membatasi akses ke GPS, terutama jika tidak dijalankan di perangkat fisik (seperti ponsel). Untuk mendapatkan koordinat GPS, aplikasi harus dijalankan di perangkat yang mendukung geolokasi (seperti ponsel Android/iOS).
 <img width="379" alt="image" src="https://github.com/user-attachments/assets/6bc13578-6d90-4e1d-9f2b-69fcbe8249b6">
 
 
 
 # Praktikum 7
 ![image](https://github.com/user-attachments/assets/a9e3225c-e5e3-4554-acdf-b4498408e256)
+### Soal 13
+#### Apakah ada perbedaan UI dengan praktikum sebelumnya? Mengapa demikian?
+Ya, ada perbedaan pada UI dibandingkan dengan langkah sebelumnya.
+#### Seperti yang Anda lihat, menggunakan FutureBuilder lebih efisien, clean, dan reactive dengan Future bersama UI.
+Betul sekali! Menggunakan FutureBuilder dalam Flutter sangat efisien, clean, dan reactive ketika berhubungan dengan Future dan UI.
 ## Perbedaan
 ![image](https://github.com/user-attachments/assets/9550c432-c064-4b46-9eeb-5b659c26bad6)
-
+### Soal 14
+#### Apakah ada perbedaan UI dengan langkah sebelumnya? Mengapa demikian?
+Ya, ada perbedaan pada UI dibandingkan dengan langkah sebelumnya.
 
 # Praktikum 8
 ![image](https://github.com/user-attachments/assets/b3b04769-43d7-4aad-872e-82362d7c5549)
 ![image](https://github.com/user-attachments/assets/3f9654aa-227c-4070-8dd8-696d830d2e6c)
+### Soal 15
+#### Tambahkan nama panggilan Anda pada tiap properti title sebagai identitas pekerjaan Anda.
+#### Silakan ganti dengan warna tema favorit Anda.
 
+### Soal 16
+#### Cobalah klik setiap button, apa yang terjadi ? Mengapa demikian ?
+Karena, tombol-tombol tersebut mengubah warna latar belakang layar pertama (NavigationFirst) sesuai dengan warna yang dipilih di layar kedua (NavigationSecond).
+#### Gantilah 3 warna pada langkah 5 dengan warna favorit Anda!
 
 
 # Praktikum 9
