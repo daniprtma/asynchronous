@@ -1,16 +1,29 @@
-# pert11
+# Praktikum 1
+![Screenshot 2024-11-25 145450](https://github.com/user-attachments/assets/4d16d229-9f8e-42f3-9726-c8a4d1584286)
 
-A new Flutter project.
+# Praktikum 2
+![Screenshot 2024-11-25 151515](https://github.com/user-attachments/assets/8dfda051-2e63-41bf-91cc-383b51eb190f)
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+# Praktikum 3
+![Screenshot 2024-11-25 153046](https://github.com/user-attachments/assets/68ee8adc-43b2-4cf0-9cf5-62b4a6d72501)
+![Screenshot 2024-11-25 153105](https://github.com/user-attachments/assets/1caa273e-c5ea-456a-bdf3-11515823b7fe)
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+# Praktikum 4
+![image](https://github.com/user-attachments/assets/ec4820e9-62de-49a4-bb77-ec36115c5a6b)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+# Praktikum 5
+
+
+# Praktikum 6
+
+
+# Praktikum 7
+
+
+# Praktikum 8
+
+
+# Praktikum 9
