@@ -38,3 +38,4 @@
 
 
 # Praktikum 9
+![image](https://github.com/user-attachments/assets/28b20b7e-fc9d-45b6-8771-6935c57abbb5)
