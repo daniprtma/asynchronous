@@ -11,11 +11,10 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Future Demo',
+      title: 'Future Demo ',
       theme: ThemeData(
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
@@ -77,8 +76,29 @@ class _FuturePageState extends State<FuturePage> {
   }
 
   Future calculate() async {
+    try {
     await Future.delayed(const Duration(seconds: 5));
     completer.complete(42);
+  } catch (_) {
+    completer.completeError({});
+  }
+}
+
+void returnFG() {
+    FutureGroup<int> futureGroup = FutureGroup<int>();
+    futureGroup.add(returnOneAsync());
+    futureGroup.add(returnTwoAsync());
+    futureGroup.add(returnThreeAsync());
+    futureGroup.close();
+    futureGroup.future.then((List<int> value) {
+      int total = 0;
+      for (var element in value) {
+        total += element;
+      }
+      setState(() {
+        result = total.toString();
+      });
+    });
   }
 
   @override
@@ -93,12 +113,26 @@ class _FuturePageState extends State<FuturePage> {
           ElevatedButton(
             child: const Text('GO!'),
             onPressed: () {
-              getNumber().then((value) {
-                setState(() {
-                  result = value.toString();
-                });
-              });
-              //count();
+              returnFG();
+
+              // getNumber().then((value) {
+              //   setState(() {
+              //     result = value.toString();
+              //   });
+              // }).catchError((e) {
+              //   result = 'An error occurred';
+              // });
+
+              // count();
+
+              // setState(() {});
+              // getData().then((value) {
+              //   result = value.body.toString().substring(0, 450);
+              //   setState(() {});
+              // }).catchError((_) {
+              //   result = 'An error occurred';
+              //   setState(() {});
+              // });
             },
           ),
           const Spacer(),
